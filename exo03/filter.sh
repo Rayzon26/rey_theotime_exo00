@@ -1,0 +1,6 @@
+find ex03 -type f -name "*.php"
+find ex03 -type f -name "?e*"
+find ex03 -type f -name "[a-e]*"
+find ex03 -type f -not -name "[aeiouAEIOU]*"
+find ex03 -type f ! -name "*.php"
+find ex03 -type f ! -name "*.txt" ! -name "*.php"
